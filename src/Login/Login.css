@@ -1,0 +1,75 @@
+/* Asosiy fonni to'qroq qilish */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0f1a; /* Yanada to'qroq qora-ko'k */
+  font-family: 'Inter', sans-serif;
+}
+
+/* Kartaning foni va chegarasini yumshatish */
+.login-card {
+  background-color: #161d2f; /* To'q kulrang-ko'k */
+  padding: 3rem;
+  border-radius: 1.25rem;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #2d3748; /* Chegarani biroz ko'rinadigan qilish */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.login-header h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-header p {
+  color: #94a3b8;
+  margin-bottom: 2.5rem;
+}
+
+/* Inputlar stili - Rasmdagi kabi ko'rinishi uchun */
+.input-group {
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 3rem;
+  background-color: #1f2937; /* Input ichi to'q kulrang */
+  border: 1px solid #374151; /* Border rangi */
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Inputga bosilganda (Focus holati) */
+.input-group input:focus {
+  border-color: #3b82f6;
+  background-color: #111827; /* Fokusda rang biroz o'zgaradi */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  outline: none;
+}
+
+/* Kirish tugmasi - Yorqinroq ko'k */
+.login-button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.85rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}

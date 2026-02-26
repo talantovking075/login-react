@@ -1,0 +1,37 @@
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+p{
+    font-size: 18px;
+    margin: 0;
+    color: #515151;
+}
+.stat-card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.stats-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
